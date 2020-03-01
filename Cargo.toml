@@ -1,0 +1,13 @@
+[package]
+name = "rust-blockchain"
+version = "0.1.0"
+authors = ["ruichao.xin <ruichao.xin@gaea.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tiny-keccak = { version = "2.0", features = ["sha3"] }
+chrono = "0.4"
+num-bigint = "0.2.2"
+num-traits = "0.2"
